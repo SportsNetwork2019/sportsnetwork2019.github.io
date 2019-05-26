@@ -1,22 +1,107 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+<style>
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+@media ( min-width : 1200px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+</style>
+<!-- Custom styles for this template -->
+<link href="css/cover.css" rel="stylesheet">
+</head>
+<body class="text-center">
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+		<header class="masthead mb-auto">
+			<div class="inner" role="tablist">
+				<h3 class="masthead-brand">Sports Network</h3>
+				<nav class="nav nav-masthead justify-content-center"> 
+						<a class="nav-item nav-link" id="nav-mlb-tab" data-toggle="tab" href="#nav-mlb" role="tab" aria-controls="nav-mlb" aria-selected="false">MLB</a> 
+						<a class="nav-item nav-link" id="nav-nba-tab" data-toggle="tab" href="#nav-nba" role="tab" aria-controls="nav-nba" aria-selected="false">NBA</a> 
+						<a class="nav-item nav-link" id="nav-mma-tab" data-toggle="tab" href="#nav-mma" role="tab" aria-controls="nav-mma" aria-selected="false">MMA</a>
+						<a class="nav-item nav-link" id="nav-nhl-tab" data-toggle="tab" href="#nav-nhl" role="tab" aria-controls="nav-nhl" aria-selected="false">NHL</a>
+				</nav>
+			</div>
+		</header>
+
+		<div id="snCircles" class="row">
+			<div class="col-lg-3">
+				<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+					<title>Placeholder</title><rect width="100%" height="100%" fill="#004D93" />
+					<text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+				<h2>MLB</h2>
+				<p></p>
+				<p>
+					<a class="btn btn-secondary" href="#" role="button">Watch &raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-3">
+				<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+					<title>Placeholder</title><rect width="100%" height="100%" fill="#F23768" />
+					<text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+				<h2>NBA</h2>
+				<p></p>
+				<p>
+					<a class="btn btn-secondary" href="#" role="button">Watch &raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-3">
+				<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+					<title>Placeholder</title><rect width="100%" height="100%" fill="#ED7D53" />
+					<text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+				<h2>MMA</h2>
+				<p></p>
+				<p>
+					<a class="btn btn-secondary" href="#" role="button">Watch &raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+			<div class="col-lg-3">
+				<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+					<title>Placeholder</title><rect width="100%" height="100%" fill="#E5E6E7" />
+					<text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+				<h2>NHL</h2>
+				<p></p>
+				<p>
+					<a class="btn btn-secondary" href="#" role="button">Watch &raquo;</a>
+				</p>
+			</div>
+			<!-- /.col-lg-4 -->
+		</div>
+		<!-- /.row -->
+		
+		<div class="tab-content" id="nav-tabContent">
+		  <div class="tab-pane fade" id="nav-mlb" role="tabpanel" aria-labelledby="nav-mlb-tab">MLB MLB MLB</div>
+		  <div class="tab-pane fade" id="nav-nba" role="tabpanel" aria-labelledby="nav-nba-tab">NBA NBA NBA</div>
+		  <div class="tab-pane fade" id="nav-mma" role="tabpanel" aria-labelledby="nav-mma-tab">MMA MMA MMA</div>
+		  <div class="tab-pane fade" id="nav-nhl" role="tabpanel" aria-labelledby="nav-nhl-tab">NHL NHL NHL</div>
+		</div>
+		
+
+		<footer class="mastfoot mt-auto">
+			<div class="inner">
+				<p>Some footer shit here.</p>
+			</div>
+		</footer>
+	</div>
+</body>
 </html>
